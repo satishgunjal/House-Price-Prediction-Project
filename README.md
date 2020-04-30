@@ -26,5 +26,9 @@ Technology and tools used in this project
 2. Second step would be to write a python flask server that uses the saved model to serve http requests.
 3. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. 
 
+## Dataset Reference
+* [Bengaluru House price data](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data)
+* I have also uploaed the csv file in this repository [Bengaluru_House_Data.csv](Bengaluru_House_Data.csv)
+
 Reference
 [codebasics](https://youtu.be/rdfbcdP75KI)
