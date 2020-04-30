@@ -1,4 +1,4 @@
-# Real-Estate-Price-Prediction-Project
+# Real Estate Price Prediction Project
 
 ## Introduction
 Creating a Machine Learning model to predict the home prices in Bangalore, India. We are going to use the dataset from Kaggle.com.
