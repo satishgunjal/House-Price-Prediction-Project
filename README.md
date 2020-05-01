@@ -26,6 +26,26 @@ Technology and tools used in this project
 2. Second step would be to write a python flask server that uses the saved model to serve http requests.
 3. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. 
 
+  ```
+  Step#1: Import the required libraries
+  Step#2: Load the data
+  Step#3: Understand the data
+          -drop unnecessary columns
+  Step#4: Data Cleaning
+          - Check for na values
+          - Verify unique values of each column
+          - Make sure values are correct (eg. 23 BHK home with 2000 Sqrft size is worng)
+          - Feature Engineering
+          - Dimesionality Reduction
+          - Outlier removal using domain knowledge (2bhk price < 3bhk price, size per bhk >= 300 sqft)
+          - Outlier removal using standard eviation and mean
+          - One Hot encoding
+  Step#5: Build Machine Learning Model
+  Step#6: Testing The model
+  Step#7: Export the model
+  Step#8: Export any other important info
+  ```
+
 ## Dataset Reference
 * [Bengaluru House price data](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data)
 * I have also uploaed the csv file in this repository [Bengaluru_House_Data.csv](Bengaluru_House_Data.csv)
